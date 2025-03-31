@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI协同文件审查系统</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .main-content {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 20px 0;
+            padding: 20px;
+        }
+        .upload-section {
+            border: 2px dashed #ddd;
+            border-radius: 5px;
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+        .upload-section:hover {
+            border-color: #2c3e50;
+        }
+        .file-input {
+            display: none;
+        }
+        .upload-btn {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .upload-btn:hover {
+            background-color: #2980b9;
+        }
+        .process-btn {
+            background-color: #2ecc71;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-right: 10px;
+            transition: background-color 0.3s;
+            display: none;
+        }
+        .process-btn:hover {
+            background-color: #27ae60;
+        }
+        .process-controls {
+            margin-top: 20px;
+        }
+        .status-section {
+            margin-top: 30px;
+        }
+        .status-box {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 10px;
+        }
+        .progress-bar {
+            height: 20px;
+            background-color: #ecf0f1;
+            border-radius: 10px;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            background-color: #3498db;
+            width: 0%;
+            transition: width 0.5s;
+        }
+        .report-section {
+            margin-top: 30px;
+            display: none;
+        }
+        .report-link {
+            display: inline-block;
+            background-color: #9b59b6;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        .report-link:hover {
+            background-color: #8e44ad;
+        }
+        .process-display-section {
+            margin-top: 20px;
+        }
+        .process-display-box {
+            background-color: #f0f7ff;
+            border: 1px solid #cce5ff;
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 10px;
+            max-height: 300px;
+            overflow-y: auto;
+            font-family: monospace;
+            font-size: 14px;
+        }
+        
+        .process-display-box > p {
+            margin: 5px 0;
+            padding: 3px 0;
+        }
+        .api-response {
+            color: #2c3e50;
+            margin: 5px 0;
+            padding: 5px;
+            border-left: 3px solid #3498db;
+        }
+        .log-info {
+            color: #27ae60;
+            margin: 5px 0;
+            padding: 5px;
+            border-left: 3px solid #2ecc71;
+            font-family: monospace;
+            font-size: 13px;
+            background-color: #f8f8f8;
+            border-radius: 3px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>恒AI协同文件审查系统</h1>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <h2>文件审查</h2>
+            <p>上传您需要审查的文档（支持.docx和.pdf格式，最大10MB）</p>
+            
+            <div class="upload-section" id="dropArea">
+                <p>拖放文件到这里或点击选择文件</p>
+                <input type="file" id="fileInput" class="file-input" accept=".docx,.pdf">
+                <button class="upload-btn" id="selectFileBtn">选择文件</button>
+                <p id="fileInfo"></p>
+            </div>
+
+            <div class="process-controls">
+                <button class="process-btn" id="analyzeBtn">分析文档</button>
+                <button class="process-btn" id="discussBtn">讨论文档</button>
+                <button class="process-btn" id="summarizeBtn">总结文档</button>
+            </div>
+
+            <div class="status-section">
+                <h3>审查状态</h3>
+                <div class="status-box">
+                    <p id="statusText">等待上传文件...</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressBar"></div>
+                    </div>
+                    <p id="expertStatus"></p>
+                </div>
+            </div>
+            
+            <div class="process-display-section">
+                <h3>过程展示</h3>
+                <div class="process-display-box" id="processDisplay">
+                    <p>你的 AI 小助手已准备好啦～</p>
+                </div>
+            </div>
+
+            <div class="report-section" id="reportSection">
+                <h3>审查报告</h3>
+                <p>您的文档审查已完成，请点击下方链接查看详细报告：</p>
+                <a href="#" class="report-link" id="reportLink" target="_blank">查看审查报告</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>恒AI协同文件审查系统 &copy; 2023</p>
+    </footer>
+
+    <script>
+        let currentReviewId = null;
+        let currentStatus = "等待上传";
+        let statusCheckInterval = null;
+
+        // 获取DOM元素
+        const fileInput = document.getElementById('fileInput');
+        const selectFileBtn = document.getElementById('selectFileBtn');
+        const dropArea = document.getElementById('dropArea');
+        const fileInfo = document.getElementById('fileInfo');
+        const analyzeBtn = document.getElementById('analyzeBtn');
+        const discussBtn = document.getElementById('discussBtn');
+        const summarizeBtn = document.getElementById('summarizeBtn');
+        const statusText = document.getElementById('statusText');
+        const expertStatus = document.getElementById('expertStatus');
+        const progressBar = document.getElementById('progressBar');
+        const reportSection = document.getElementById('reportSection');
+        const reportLink = document.getElementById('reportLink');
+        const processDisplay = document.getElementById('processDisplay');
+
+        // 点击选择文件按钮
+        selectFileBtn.addEventListener('click', () => {
+            fileInput.click();
+        });
+
+        // 文件选择事件
+        fileInput.addEventListener('change', handleFileSelect);
+
+        // 拖放事件
+        dropArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            dropArea.style.borderColor = '#3498db';
+        });
+
+        dropArea.addEventListener('dragleave', () => {
+            dropArea.style.borderColor = '#ddd';
+        });
+
+        dropArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            dropArea.style.borderColor = '#ddd';
+            
+            if (e.dataTransfer.files.length) {
+                fileInput.files = e.dataTransfer.files;
+                handleFileSelect();
+            }
+        });
+
+        // 处理文件选择
+        function handleFileSelect() {
+            if (fileInput.files.length === 0) return;
+            
+            const file = fileInput.files[0];
+            const fileExt = file.name.split('.').pop().toLowerCase();
+            
+            // 检查文件类型
+            if (fileExt !== 'docx' && fileExt !== 'pdf') {
+                fileInfo.textContent = '错误：不支持的文件格式，仅支持.docx和.pdf格式';
+                fileInfo.style.color = 'red';
+                return;
+            }
+            
+            // 检查文件大小
+            if (file.size > 10 * 1024 * 1024) { // 10MB
+                fileInfo.textContent = '错误：文件大小超过限制（10MB）';
+                fileInfo.style.color = 'red';
+                return;
+            }
+            
+            // 显示文件信息
+            fileInfo.textContent = `已选择: ${file.name} (${formatFileSize(file.size)})`;
+            fileInfo.style.color = '#333';
+            
+            // 上传文件
+            uploadFile(file);
+        }
+
+        // 格式化文件大小
+        function formatFileSize(bytes) {
+            if (bytes < 1024) return bytes + ' B';
+            else if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(2) + ' KB';
+            else return (bytes / (1024 * 1024)).toFixed(2) + ' MB';
+        }
+
+        // 上传文件
+        function uploadFile(file) {
+            statusText.textContent = '正在上传文件...';
+            // 创建新的段落元素而不是直接修改textContent
+            const uploadMsg = document.createElement('p');
+            uploadMsg.textContent = '正在上传文件...';
+            processDisplay.appendChild(uploadMsg);
+            progressBar.style.width = '5%';
+            
+            const formData = new FormData();
+            formData.append('file', file);
+            
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('文件上传失败');
+                }
+                return response.json();
+            })
+            .then(data => {
+                statusText.textContent = '文件上传成功，准备开始分析';
+                const successMsg = document.createElement('p');
+            successMsg.textContent = '文件上传成功，准备开始分析';
+            processDisplay.appendChild(successMsg);
+                progressBar.style.width = '20%';
+                currentReviewId = data.review_id;
+                
+                // 显示处理按钮
+                analyzeBtn.style.display = 'inline-block';
+                discussBtn.style.display = 'none';
+                summarizeBtn.style.display = 'none';
+                
+                // 开始检查状态
+                startStatusCheck();
+            })
+            .catch(error => {
+                statusText.textContent = `错误: ${error.message}`;
+                progressBar.style.width = '0%';
+            });
+        }
+
+        // 分析文档
+        analyzeBtn.addEventListener('click', () => {
+            if (!currentReviewId) return;
+            
+            statusText.textContent = '正在分析文档...';
+            progressBar.style.width = '30%';
+            const analyzeMsg = document.createElement('p');
+            analyzeMsg.textContent = '正在分析文档...';
+            processDisplay.appendChild(analyzeMsg);
+            
+            fetch(`/analyze/${currentReviewId}`, {
+                method: 'POST'
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('文档分析请求失败');
+                }
+                return response.json();
+            })
+            .then(data => {
+                statusText.textContent = '文档分析已开始，请等待...';
+                const analyzeStartMsg = document.createElement('p');
+            analyzeStartMsg.textContent = '文档分析已开始，请等待...';
+            processDisplay.appendChild(analyzeStartMsg);
+                currentStatus = '分析中';
+            })
+            .catch(error => {
+                statusText.textContent = `错误: ${error.message}`;
+            });
+        });
+
+        // 讨论文档
+        discussBtn.addEventListener('click', () => {
+            if (!currentReviewId) return;
+            
+            statusText.textContent = '正在讨论文档...';
+            progressBar.style.width = '60%';
+            const discussMsg = document.createElement('p');
+            discussMsg.textContent = '正在讨论文档...';
+            processDisplay.appendChild(discussMsg);
+            
+            fetch(`/discuss/${currentReviewId}`, {
+                method: 'POST'
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('文档讨论请求失败');
+                }
+                return response.json();
+            })
+            .then(data => {
+                statusText.textContent = '文档讨论已开始，请等待...';
+                const discussStartMsg = document.createElement('p');
+                discussStartMsg.textContent = '文档讨论已开始，请等待...';
+                processDisplay.appendChild(discussStartMsg);
+                
+                const discussingMsg = document.createElement('p');
+                discussingMsg.textContent = '讨论中...';
+                processDisplay.appendChild(discussingMsg);
+                currentStatus = '讨论中';
+            })
+            .catch(error => {
+                statusText.textContent = `错误: ${error.message}`;
+            });
+        });
+
+        // 总结文档
+        summarizeBtn.addEventListener('click', () => {
+            if (!currentReviewId) return;
+            
+            statusText.textContent = '正在总结文档...';
+            progressBar.style.width = '80%';
+            // 不要替换全部内容，而是创建新元素追加
+            const summaryMsg = document.createElement('p');
+            summaryMsg.textContent = '正在总结文档...';
+            processDisplay.appendChild(summaryMsg);
+            
+            fetch(`/summarize/${currentReviewId}`, {
+                method: 'POST'
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('文档总结请求失败');
+                }
+                return response.json();
+            })
+            .then(data => {
+                statusText.textContent = '文档总结已开始，请等待...';
+                currentStatus = '总结中';
+                const summarizingMsg = document.createElement('p');
+            summarizingMsg.textContent = '总结中...';
+            processDisplay.appendChild(summarizingMsg);
+            })
+            .catch(error => {
+                statusText.textContent = `错误: ${error.message}`;
+            });
+        });
+
+        // 开始定期检查状态
+        function startStatusCheck() {
+            if (statusCheckInterval) {
+                clearInterval(statusCheckInterval);
+            }
+            
+            statusCheckInterval = setInterval(checkProgress, 3000); // 每3秒检查一次
+        }
+
+        // 检查进度
+        function checkProgress() {
+            if (!currentReviewId) return;
+            
+            fetch(`/progress/${currentReviewId}`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('获取进度信息失败');
+                }
+                return response.json();
+            })
+            .then(data => {
+                updateProgressUI(data);
+                
+                // 更新过程展示区域
+                if (data.api_responses && data.api_responses.length > 0) {
+                    // 获取已显示的API响应数量
+                    const displayedResponsesCount = document.querySelectorAll('.api-response').length;
+                    
+                    // 只显示新的API响应
+                    const newResponses = data.api_responses.slice(displayedResponsesCount);
+                    
+                    for (const response of newResponses) {
+                        if (response.chunk && response.chunk.choices && 
+                            response.chunk.choices[0] && response.chunk.choices[0].delta && 
+                            response.chunk.choices[0].delta.content) {
+                            const responseDiv = document.createElement('div');
+                            responseDiv.className = 'api-response';
+                            
+                            // 添加角色标识（如果存在）
+                            let content = response.chunk.choices[0].delta.content;
+                            if (response.role) {
+                                // 将角色信息作为前缀添加到内容中
+                                responseDiv.innerHTML = `<strong>[${response.role}]</strong> ${content}`;
+                            } else {
+                                responseDiv.textContent = content;
+                            }
+                            
+                            processDisplay.appendChild(responseDiv);
+                            
+                            // 自动滚动到底部
+                            processDisplay.scrollTop = processDisplay.scrollHeight;
+                        }
+                    }
+                }
+                
+                // 显示日志信息
+                // if (data.logs && data.logs.length > 0) {
+                //     // 获取已显示的日志数量
+                //     const displayedLogsCount = document.querySelectorAll('.log-info').length;
+                    
+                //     // 只显示新的日志
+                //     const newLogs = data.logs.slice(displayedLogsCount);
+                    
+                //     for (const log of newLogs) {
+                //         const logDiv = document.createElement('div');
+                //         logDiv.className = 'log-info';
+                        
+                //         // 根据日志级别设置不同的样式
+                //         if (log.level === 'ERROR') {
+                //             logDiv.style.color = '#e74c3c';
+                //             logDiv.style.borderLeft = '3px solid #e74c3c';
+                //         }
+                        
+                //         logDiv.textContent = `[${log.time}] ${log.level}: ${log.message}`;
+                //         processDisplay.appendChild(logDiv);
+                //     }
+                // }
+                
+                // 自动滚动到底部
+                processDisplay.scrollTop = processDisplay.scrollHeight;
+            })
+            .catch(error => {
+                console.error('检查进度失败:', error);
+            });
+        }
+
+        // 更新进度UI
+        function updateProgressUI(progressData) {
+            const status = progressData.status;
+            const progress = progressData.progress;
+            
+            // 更新状态文本
+            statusText.textContent = `当前状态: ${status} (${progress.stage})`;
+            
+            // 更新专家状态
+            if (progress.expert_progress) {
+                let expertStatusText = '专家进度: ';
+                for (const [expert, status] of Object.entries(progress.expert_progress)) {
+                    expertStatusText += `${expert}: ${status}; `;
+                }
+                expertStatus.textContent = expertStatusText;
+            }
+            
+            // 更新进度条
+            let progressPercent = 0;
+            switch (progress.stage) {
+                case '初始化':
+                    progressPercent = 10;
+                    break;
+                case '分析阶段':
+                    progressPercent = progress.status === '完成' ? 40 : 30;
+                    break;
+                case '讨论阶段':
+                    progressPercent = progress.status === '完成' ? 70 : 60;
+                    break;
+                case '总结阶段':
+                    progressPercent = progress.status === '完成' ? 100 : 80;
+                    break;
+            }
+            progressBar.style.width = `${progressPercent}%`;
+            
+            // 根据阶段显示不同的按钮
+            if (progress.stage === '分析阶段' && progress.status === '完成') {
+                analyzeBtn.style.display = 'none';
+                discussBtn.style.display = 'inline-block';
+                summarizeBtn.style.display = 'none';
+            } else if (progress.stage === '讨论阶段' && progress.status === '完成') {
+                analyzeBtn.style.display = 'none';
+                discussBtn.style.display = 'none';
+                summarizeBtn.style.display = 'inline-block';
+            } else if (progress.stage === '总结阶段' && progress.status === '完成') {
+                // 显示报告链接
+                fetch(`/report/${currentReviewId}`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('获取报告链接失败');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.report_url) {
+                        // 确保报告URL是完整的路径
+                        if (data.report_url.startsWith('/')) {
+                            // 如果是相对路径，添加当前域名
+                            // 修复端口问题：确保使用8002端口
+                            let origin = window.location.origin;
+                            // 如果当前URL包含端口号且不是8002，替换为8002
+                            if (origin.includes(':') && !origin.includes(':8002')) {
+                                origin = origin.replace(/:\d+/, ':8002');
+                            }
+                            reportLink.href = origin + data.report_url;
+                        } else if (data.report_url.includes('0.0.0.0')) {
+                            // 如果包含0.0.0.0，替换为localhost:8002
+                            reportLink.href = data.report_url.replace('0.0.0.0', 'localhost').replace(/:\d+/, ':8002');
+                        } else {
+                            // 确保其他URL也使用8002端口
+                            reportLink.href = data.report_url.replace(/:\d+\/reports/, ':8002/reports');
+                        }
+                        reportSection.style.display = 'block';
+                        
+                        // 停止状态检查
+                        clearInterval(statusCheckInterval);
+                    }
+                })
+                .catch(error => {
+                    console.error('获取报告链接失败:', error);
+                });
+            }
+        }
+    </script>

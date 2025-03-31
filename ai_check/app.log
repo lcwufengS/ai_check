@@ -1,0 +1,1122 @@
+2025-03-19 11:19:44,630 - app - INFO - 配置管理器初始化成功
+2025-03-19 11:19:44,631 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-19 11:19:44,631 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-19 11:19:44,631 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-19 11:19:44,632 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-19 11:19:44,632 - app - INFO - 角色管理器初始化成功
+2025-03-19 11:19:44,632 - app - INFO - 文件解析器初始化成功
+2025-03-19 11:19:44,731 - watchfiles.main - INFO - 4 changes detected
+2025-03-19 11:43:29,698 - app - INFO - 配置管理器初始化成功
+2025-03-19 11:43:29,700 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-19 11:43:29,700 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-19 11:43:29,700 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-19 11:43:29,701 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-19 11:43:29,701 - app - INFO - 角色管理器初始化成功
+2025-03-19 11:43:29,702 - app - INFO - 文件解析器初始化成功
+2025-03-19 11:43:29,784 - watchfiles.main - INFO - 3 changes detected
+2025-03-19 14:46:15,899 - app - INFO - 配置管理器初始化成功
+2025-03-19 14:46:15,900 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-19 14:46:15,900 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-19 14:46:15,900 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-19 14:46:15,900 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-19 14:46:15,900 - app - INFO - 角色管理器初始化成功
+2025-03-19 14:46:15,900 - app - INFO - 文件解析器初始化成功
+2025-03-19 14:46:36,034 - watchfiles.main - INFO - 1 change detected
+2025-03-19 14:46:48,401 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-19 14:46:48,593 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-19 14:46:48,593 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-19 14:46:48,682 - watchfiles.main - INFO - 1 change detected
+2025-03-19 14:46:48,995 - root - ERROR - API调用失败: 404 Client Error: Not Found for url: https://ark.cn-beijing.volces.com/api/v3/v1/chat/completions
+2025-03-19 14:46:49,001 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-19 14:46:49,634 - root - ERROR - API调用失败: 404 Client Error: Not Found for url: https://ark.cn-beijing.volces.com/api/v3/v1/chat/completions
+2025-03-19 14:46:49,637 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-19 14:46:49,875 - root - ERROR - API调用失败: 401 Client Error: Unauthorized for url: https://ark.cn-beijing.volces.com/api/v3/v1/chat/completions
+2025-03-19 14:46:49,875 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-19 14:46:49,876 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-19 14:46:50,139 - root - ERROR - API调用失败: 404 Client Error: Not Found for url: https://ark.cn-beijing.volces.com/api/v3/v1/chat/completions
+2025-03-19 14:46:50,140 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-19 14:46:50,140 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-19 14:47:31,943 - watchfiles.main - INFO - 1 change detected
+2025-03-19 14:48:48,011 - watchfiles.main - INFO - 1 change detected
+2025-03-19 14:48:51,166 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-19 14:48:51,176 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-19 14:48:51,176 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-19 14:48:51,275 - watchfiles.main - INFO - 1 change detected
+2025-03-19 14:48:51,465 - root - ERROR - API调用失败: 404 Client Error: Not Found for url: https://ark.cn-beijing.volces.com/api/v3/v1/chat/completions
+2025-03-19 14:48:51,465 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-19 14:48:51,710 - root - ERROR - API调用失败: 404 Client Error: Not Found for url: https://ark.cn-beijing.volces.com/api/v3/v1/chat/completions
+2025-03-19 14:48:51,711 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-19 14:48:51,950 - root - ERROR - API调用失败: 401 Client Error: Unauthorized for url: https://ark.cn-beijing.volces.com/api/v3/v1/chat/completions
+2025-03-19 14:48:51,951 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-19 14:48:51,952 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-19 14:48:52,198 - root - ERROR - API调用失败: 404 Client Error: Not Found for url: https://ark.cn-beijing.volces.com/api/v3/v1/chat/completions
+2025-03-19 14:48:52,203 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-19 14:48:52,204 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-19 14:48:59,705 - root - INFO - 进度更新: 讨论阶段 - 开始讨论文档问题
+2025-03-19 14:48:59,706 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (0/3)
+2025-03-19 14:48:59,959 - root - ERROR - API调用失败: 404 Client Error: Not Found for url: https://ark.cn-beijing.volces.com/api/v3/v1/chat/completions
+2025-03-19 14:48:59,960 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (1/3)
+2025-03-19 14:49:00,194 - root - ERROR - API调用失败: 404 Client Error: Not Found for url: https://ark.cn-beijing.volces.com/api/v3/v1/chat/completions
+2025-03-19 14:49:00,194 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (2/3)
+2025-03-19 14:49:00,433 - root - ERROR - API调用失败: 401 Client Error: Unauthorized for url: https://ark.cn-beijing.volces.com/api/v3/v1/chat/completions
+2025-03-19 14:49:00,433 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (3/3)
+2025-03-19 14:49:00,434 - root - INFO - 进度更新: 讨论阶段 - 完成
+2025-03-19 14:49:00,435 - app - INFO - 文档讨论完成
+2025-03-19 14:49:05,887 - root - INFO - 进度更新: 总结阶段 - 开始生成最终报告
+2025-03-19 14:49:06,447 - root - ERROR - API调用失败: 404 Client Error: Not Found for url: https://ark.cn-beijing.volces.com/api/v3/v1/chat/completions
+2025-03-19 14:49:06,452 - root - INFO - 进度更新: 总结阶段 - 完成
+2025-03-19 14:49:06,453 - app - INFO - 文档总结完成
+2025-03-19 14:49:06,533 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:36:23,946 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:36:24,461 - root - INFO - 清理临时目录: temp
+2025-03-20 10:36:24,465 - app - INFO - 临时文件已清理
+2025-03-20 10:36:26,090 - watchfiles.main - INFO - 4 changes detected
+2025-03-20 10:36:28,659 - watchfiles.main - INFO - 3 changes detected
+2025-03-20 10:36:30,018 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:36:30,021 - app - INFO - 配置管理器初始化成功
+2025-03-20 10:36:30,022 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-20 10:36:30,022 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-20 10:36:30,022 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-20 10:36:30,022 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-20 10:36:30,022 - app - INFO - 角色管理器初始化成功
+2025-03-20 10:36:30,022 - app - INFO - 文件解析器初始化成功
+2025-03-20 10:36:45,343 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:36:45,543 - root - INFO - 清理临时目录: temp
+2025-03-20 10:36:45,543 - app - INFO - 临时文件已清理
+2025-03-20 10:36:46,285 - watchfiles.main - INFO - 4 changes detected
+2025-03-20 10:36:46,657 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:36:49,149 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:36:49,619 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:36:50,949 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:36:53,081 - watchfiles.main - INFO - 3 changes detected
+2025-03-20 10:36:55,044 - app - INFO - 配置管理器初始化成功
+2025-03-20 10:36:55,057 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:36:55,239 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-20 10:36:55,317 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-20 10:36:55,394 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-20 10:36:55,462 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-20 10:36:55,462 - app - INFO - 角色管理器初始化成功
+2025-03-20 10:36:55,462 - app - INFO - 文件解析器初始化成功
+2025-03-20 10:37:25,279 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:37:25,629 - root - INFO - 清理临时目录: temp
+2025-03-20 10:37:25,629 - app - INFO - 临时文件已清理
+2025-03-20 10:37:27,241 - watchfiles.main - INFO - 3 changes detected
+2025-03-20 10:37:29,444 - watchfiles.main - INFO - 3 changes detected
+2025-03-20 10:37:30,782 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:37:30,850 - app - INFO - 配置管理器初始化成功
+2025-03-20 10:37:31,256 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-20 10:37:31,420 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-20 10:37:31,765 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-20 10:37:32,038 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-20 10:37:32,044 - app - INFO - 角色管理器初始化成功
+2025-03-20 10:37:32,048 - app - INFO - 文件解析器初始化成功
+2025-03-20 10:39:18,782 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:39:18,926 - root - INFO - 清理临时目录: temp
+2025-03-20 10:39:18,927 - app - INFO - 临时文件已清理
+2025-03-20 10:39:20,447 - watchfiles.main - INFO - 3 changes detected
+2025-03-20 10:39:20,825 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:39:24,859 - watchfiles.main - INFO - 3 changes detected
+2025-03-20 10:39:27,043 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:39:27,262 - app - INFO - 配置管理器初始化成功
+2025-03-20 10:39:27,824 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-20 10:39:28,178 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-20 10:39:28,438 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-20 10:39:28,677 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-20 10:39:28,678 - app - INFO - 角色管理器初始化成功
+2025-03-20 10:39:28,678 - app - INFO - 文件解析器初始化成功
+2025-03-20 10:39:30,725 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:39:30,865 - root - INFO - 清理临时目录: temp
+2025-03-20 10:39:30,865 - app - INFO - 临时文件已清理
+2025-03-20 10:39:31,749 - watchfiles.main - INFO - 3 changes detected
+2025-03-20 10:39:32,774 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:39:36,593 - watchfiles.main - INFO - 3 changes detected
+2025-03-20 10:39:38,459 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:39:38,499 - app - INFO - 配置管理器初始化成功
+2025-03-20 10:39:38,842 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-20 10:39:39,145 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-20 10:39:39,369 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-20 10:39:39,565 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-20 10:39:39,566 - app - INFO - 角色管理器初始化成功
+2025-03-20 10:39:39,566 - app - INFO - 文件解析器初始化成功
+2025-03-20 10:50:34,740 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:50:34,935 - root - INFO - 清理临时目录: temp
+2025-03-20 10:50:34,935 - app - INFO - 临时文件已清理
+2025-03-20 10:50:35,650 - watchfiles.main - INFO - 2 changes detected
+2025-03-20 10:50:37,703 - watchfiles.main - INFO - 3 changes detected
+2025-03-20 10:50:39,538 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:50:39,966 - app - INFO - 配置管理器初始化成功
+2025-03-20 10:50:40,421 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-20 10:50:40,511 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-20 10:57:53,698 - app - INFO - 配置管理器初始化成功
+2025-03-20 10:57:53,809 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-20 10:57:53,927 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-20 10:57:54,062 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-20 10:57:54,187 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-20 10:57:54,187 - app - INFO - 角色管理器初始化成功
+2025-03-20 10:57:54,187 - app - INFO - 文件解析器初始化成功
+2025-03-20 10:58:11,594 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:58:14,229 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-20 10:58:14,399 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-20 10:58:14,399 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-20 10:58:14,514 - watchfiles.main - INFO - 1 change detected
+2025-03-20 10:58:46,860 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 10:58:46,866 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-20 10:58:57,365 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 10:58:57,369 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-20 10:58:57,515 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-20 10:58:57,517 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742439537484a8b24f33df31b743b5bbec0d2241415f28ea31', 'param': '', 'type': 'Unauthorized'}}
+2025-03-20 10:58:57,518 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-20 10:58:57,519 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-20 10:59:50,485 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 10:59:50,487 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-20 10:59:50,488 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-20 10:59:50,573 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-20 10:59:50,603 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-20 10:59:50,603 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-20 10:59:50,772 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:00:06,613 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 11:00:06,617 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-20 11:00:22,971 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 11:00:22,974 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-20 11:00:23,326 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-20 11:00:23,329 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 02174243962322451ac4aa4595c2696f9e178b519aa5471fec808', 'param': '', 'type': 'Unauthorized'}}
+2025-03-20 11:00:23,329 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-20 11:00:23,340 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-20 11:01:41,135 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 11:01:41,139 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-20 11:01:41,139 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-20 11:01:41,285 - root - INFO - 进度更新: 讨论阶段 - 开始讨论文档问题
+2025-03-20 11:01:41,287 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (0/3)
+2025-03-20 11:01:47,749 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 11:01:47,751 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (1/3)
+2025-03-20 11:02:02,428 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 11:02:02,432 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (2/3)
+2025-03-20 11:02:02,774 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-20 11:02:02,775 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 0217424397227336772e928cf7b101d9838bd97851ecdae364135', 'param': '', 'type': 'Unauthorized'}}
+2025-03-20 11:02:02,775 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (3/3)
+2025-03-20 11:02:02,811 - root - INFO - 进度更新: 讨论阶段 - 完成
+2025-03-20 11:02:02,813 - app - INFO - 文档讨论完成
+2025-03-20 11:02:11,492 - root - INFO - 进度更新: 总结阶段 - 开始生成最终报告
+2025-03-20 11:02:57,383 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 11:02:57,386 - root - INFO - 进度更新: 总结阶段 - 完成
+2025-03-20 11:02:57,387 - app - INFO - 文档总结完成
+2025-03-20 11:02:57,730 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:20:54,814 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:20:57,862 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:20:59,570 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:21:17,791 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:21:18,357 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:21:20,842 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:21:23,609 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:21:24,671 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:21:27,143 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:21:30,331 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:21:30,861 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:21:33,235 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:21:35,772 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:21:36,311 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:21:38,601 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:21:41,248 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:21:41,725 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:21:43,489 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:21:46,986 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:21:47,404 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:21:48,896 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:24:02,216 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:24:04,441 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-20 11:24:04,486 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-20 11:24:04,486 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-20 11:24:04,590 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:24:25,227 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 11:24:25,236 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-20 11:24:43,885 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 11:24:43,887 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-20 11:24:45,062 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-20 11:24:45,068 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742441085037e6bf3e79ded92e55debff6853946afb057d357', 'param': '', 'type': 'Unauthorized'}}
+2025-03-20 11:24:45,068 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-20 11:24:45,069 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-20 11:25:39,406 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 11:25:39,409 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-20 11:25:39,409 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-20 11:25:39,731 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-20 11:25:39,773 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-20 11:25:39,774 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-20 11:25:40,089 - watchfiles.main - INFO - 1 change detected
+2025-03-20 11:25:48,632 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 11:25:48,635 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-20 11:26:09,136 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 11:26:09,138 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-20 11:26:10,061 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-20 11:26:10,070 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742441169858ede98e0f428e8900e0a9dc120396bad0bb4c7c', 'param': '', 'type': 'Unauthorized'}}
+2025-03-20 11:26:10,070 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-20 11:26:10,073 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-20 11:26:49,552 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 11:26:49,556 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-20 11:26:49,556 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-20 11:26:50,199 - root - INFO - 进度更新: 讨论阶段 - 开始讨论文档问题
+2025-03-20 11:26:50,199 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (0/3)
+2025-03-20 11:26:55,286 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 11:26:55,290 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (1/3)
+2025-03-20 11:27:17,625 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 11:27:17,629 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (2/3)
+2025-03-20 11:27:17,821 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-20 11:27:17,828 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 02174244123778500095d0e2abbc93522fa6a93b8c567457612be', 'param': '', 'type': 'Unauthorized'}}
+2025-03-20 11:27:17,828 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (3/3)
+2025-03-20 11:27:17,831 - root - INFO - 进度更新: 讨论阶段 - 完成
+2025-03-20 11:27:17,831 - app - INFO - 文档讨论完成
+2025-03-20 12:45:39,110 - watchfiles.main - INFO - 1 change detected
+2025-03-20 12:45:39,280 - root - INFO - 清理临时目录: temp
+2025-03-20 12:45:39,280 - app - INFO - 临时文件已清理
+2025-03-20 12:45:40,984 - watchfiles.main - INFO - 4 changes detected
+2025-03-20 12:45:41,385 - watchfiles.main - INFO - 1 change detected
+2025-03-20 12:45:47,139 - app - INFO - 配置管理器初始化成功
+2025-03-20 12:45:47,167 - watchfiles.main - INFO - 1 change detected
+2025-03-20 12:45:47,270 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-20 12:45:47,369 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-20 12:45:47,460 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-20 12:45:47,560 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-20 12:45:47,561 - app - INFO - 角色管理器初始化成功
+2025-03-20 12:45:47,561 - app - INFO - 文件解析器初始化成功
+2025-03-21 10:29:49,976 - root - INFO - 清理临时目录: temp
+2025-03-21 10:29:49,981 - app - INFO - 临时文件已清理
+2025-03-21 10:31:00,351 - app - INFO - 配置管理器初始化成功
+2025-03-21 10:31:00,409 - watchfiles.main - INFO - 3 changes detected
+2025-03-21 10:31:00,875 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-21 10:31:01,111 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-21 10:31:01,229 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-21 10:31:01,487 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-21 10:31:01,488 - app - INFO - 角色管理器初始化成功
+2025-03-21 10:31:01,488 - app - INFO - 文件解析器初始化成功
+2025-03-21 10:31:21,985 - watchfiles.main - INFO - 1 change detected
+2025-03-21 10:31:29,633 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-21 10:31:29,811 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-21 10:31:29,812 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-21 10:31:29,898 - watchfiles.main - INFO - 1 change detected
+2025-03-21 10:31:44,851 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 10:31:44,874 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-21 10:31:57,422 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 10:31:57,428 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-21 10:31:57,529 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-21 10:31:57,532 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742524317503e6e142d87c52e24e2e67d9a37944910b4e0907', 'param': '', 'type': 'Unauthorized'}}
+2025-03-21 10:31:57,533 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-21 10:31:57,534 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-21 10:32:41,211 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 10:32:41,222 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-21 10:32:41,222 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-21 10:35:42,366 - watchfiles.main - INFO - 1 change detected
+2025-03-21 10:35:42,506 - root - INFO - 清理临时目录: temp
+2025-03-21 10:35:42,507 - app - INFO - 临时文件已清理
+2025-03-21 10:35:43,938 - watchfiles.main - INFO - 3 changes detected
+2025-03-21 10:35:50,823 - app - INFO - 配置管理器初始化成功
+2025-03-21 10:35:50,842 - watchfiles.main - INFO - 4 changes detected
+2025-03-21 10:35:51,426 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-21 10:35:51,691 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-21 10:35:51,841 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-21 10:35:51,971 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-21 10:35:51,972 - app - INFO - 角色管理器初始化成功
+2025-03-21 10:35:51,972 - app - INFO - 文件解析器初始化成功
+2025-03-21 10:36:19,177 - app - INFO - 配置管理器初始化成功
+2025-03-21 10:36:19,277 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-21 10:36:19,346 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-21 10:36:19,409 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-21 10:36:19,474 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-21 10:36:19,474 - app - INFO - 角色管理器初始化成功
+2025-03-21 10:36:19,475 - app - INFO - 文件解析器初始化成功
+2025-03-21 10:36:29,316 - watchfiles.main - INFO - 1 change detected
+2025-03-21 10:36:32,560 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-21 10:36:32,814 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-21 10:36:32,815 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-21 10:36:32,908 - watchfiles.main - INFO - 1 change detected
+2025-03-21 10:36:45,785 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 10:45:08,857 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-21 11:36:38,185 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 11:39:21,850 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-21 11:39:22,166 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-21 11:39:22,178 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742528362020d4bf348bc0d6c878e089015bd6eda6fb26aee1', 'param': '', 'type': 'Unauthorized'}}
+2025-03-21 11:39:22,180 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-21 11:39:22,187 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-21 11:40:00,637 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 11:40:00,672 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-21 11:40:00,678 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-21 11:46:30,025 - watchfiles.main - INFO - 1 change detected
+2025-03-21 11:46:30,444 - root - INFO - 清理临时目录: temp
+2025-03-21 11:46:30,448 - app - INFO - 临时文件已清理
+2025-03-21 11:46:33,911 - watchfiles.main - INFO - 4 changes detected
+2025-03-21 11:46:44,325 - watchfiles.main - INFO - 3 changes detected
+2025-03-21 11:46:51,804 - watchfiles.main - INFO - 1 change detected
+2025-03-21 11:46:52,338 - app - INFO - 配置管理器初始化成功
+2025-03-21 11:46:52,606 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-21 11:46:52,915 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-21 11:46:53,149 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-21 11:46:53,281 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-21 11:46:53,281 - app - INFO - 角色管理器初始化成功
+2025-03-21 11:46:53,286 - app - INFO - 文件解析器初始化成功
+2025-03-21 11:46:57,950 - watchfiles.main - INFO - 1 change detected
+2025-03-21 11:46:58,164 - root - INFO - 清理临时目录: temp
+2025-03-21 11:46:58,164 - app - INFO - 临时文件已清理
+2025-03-21 11:47:00,081 - watchfiles.main - INFO - 4 changes detected
+2025-03-21 11:47:00,870 - watchfiles.main - INFO - 1 change detected
+2025-03-21 11:47:15,737 - app - INFO - 配置管理器初始化成功
+2025-03-21 11:47:15,816 - watchfiles.main - INFO - 4 changes detected
+2025-03-21 11:47:16,008 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-21 11:47:16,404 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-21 11:47:16,552 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-21 11:47:16,649 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-21 11:47:16,650 - app - INFO - 角色管理器初始化成功
+2025-03-21 11:47:16,655 - app - INFO - 文件解析器初始化成功
+2025-03-21 12:36:19,971 - app - INFO - 配置管理器初始化成功
+2025-03-21 12:36:20,088 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-21 12:36:20,158 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-21 12:36:20,224 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-21 12:36:20,289 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-21 12:36:20,290 - app - INFO - 角色管理器初始化成功
+2025-03-21 12:36:20,290 - app - INFO - 文件解析器初始化成功
+2025-03-21 12:36:55,810 - watchfiles.main - INFO - 1 change detected
+2025-03-21 12:36:58,891 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-21 12:36:59,152 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-21 12:36:59,152 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-21 12:36:59,234 - watchfiles.main - INFO - 1 change detected
+2025-03-21 12:37:09,867 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 12:37:27,754 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-21 12:37:39,849 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 12:37:55,536 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-21 12:37:55,721 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-21 12:38:30,798 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742531875697930ecead5be4ecb441c1703f8a7bd52d201ccd', 'param': '', 'type': 'Unauthorized'}}
+2025-03-21 12:39:47,707 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-21 12:39:47,717 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-21 12:40:32,921 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 12:40:38,480 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-21 12:40:38,482 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-21 12:50:45,724 - watchfiles.main - INFO - 1 change detected
+2025-03-21 12:50:46,347 - watchfiles.main - INFO - 1 change detected
+2025-03-21 12:50:47,702 - watchfiles.main - INFO - 1 change detected
+2025-03-21 12:55:37,279 - watchfiles.main - INFO - 1 change detected
+2025-03-21 12:55:37,673 - watchfiles.main - INFO - 1 change detected
+2025-03-21 12:55:38,996 - watchfiles.main - INFO - 1 change detected
+2025-03-21 12:57:53,016 - app - INFO - 配置管理器初始化成功
+2025-03-21 12:57:53,146 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-21 12:57:53,222 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-21 12:57:53,294 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-21 12:57:53,376 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-21 12:57:53,376 - app - INFO - 角色管理器初始化成功
+2025-03-21 12:57:53,377 - app - INFO - 文件解析器初始化成功
+2025-03-21 12:58:15,490 - watchfiles.main - INFO - 1 change detected
+2025-03-21 12:58:18,586 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-21 12:58:18,936 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-21 12:58:18,936 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-21 12:58:19,048 - watchfiles.main - INFO - 1 change detected
+2025-03-21 12:58:28,853 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 12:58:39,070 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-21 12:58:53,376 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 12:58:53,541 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-21 12:58:53,790 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-21 12:58:53,847 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742533133772b997beb9a248252072e46d0032e1b6d41c3ae5', 'param': '', 'type': 'Unauthorized'}}
+2025-03-21 12:58:53,848 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-21 12:58:53,888 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-21 12:59:32,742 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 12:59:32,757 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-21 12:59:32,757 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-21 13:01:34,942 - root - INFO - 进度更新: 讨论阶段 - 开始讨论文档问题
+2025-03-21 13:01:34,943 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (0/3)
+2025-03-21 13:01:43,744 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 13:01:43,765 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (1/3)
+2025-03-21 13:01:57,199 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 13:01:57,217 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (2/3)
+2025-03-21 13:01:57,345 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-21 13:01:57,348 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 0217425333173307ec6f504525d32617ec9beb7c4c87293f244a7', 'param': '', 'type': 'Unauthorized'}}
+2025-03-21 13:01:57,348 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (3/3)
+2025-03-21 13:01:57,351 - root - INFO - 进度更新: 讨论阶段 - 完成
+2025-03-21 13:01:57,352 - app - INFO - 文档讨论完成
+2025-03-21 13:04:35,315 - root - INFO - 进度更新: 总结阶段 - 开始生成最终报告
+2025-03-21 13:10:21,995 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 13:15:54,308 - root - INFO - 进度更新: 总结阶段 - 完成
+2025-03-21 13:24:09,837 - watchfiles.main - INFO - 1 change detected
+2025-03-21 13:27:21,465 - app - INFO - 文档总结完成
+2025-03-21 13:29:50,844 - root - INFO - 清理临时目录: temp
+2025-03-21 13:29:50,845 - app - INFO - 临时文件已清理
+2025-03-21 13:29:52,752 - watchfiles.main - INFO - 4 changes detected
+2025-03-21 13:30:01,831 - watchfiles.main - INFO - 1 change detected
+2025-03-21 13:30:01,904 - app - INFO - 配置管理器初始化成功
+2025-03-21 13:30:01,995 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-21 13:30:02,084 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-21 13:30:02,149 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-21 13:30:02,190 - watchfiles.main - INFO - 3 changes detected
+2025-03-21 13:30:02,247 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-21 13:30:02,338 - app - INFO - 角色管理器初始化成功
+2025-03-21 13:30:02,371 - app - INFO - 文件解析器初始化成功
+2025-03-21 13:37:44,987 - watchfiles.main - INFO - 1 change detected
+2025-03-21 13:37:45,324 - root - INFO - 清理临时目录: temp
+2025-03-21 13:37:45,330 - app - INFO - 临时文件已清理
+2025-03-21 13:37:48,084 - watchfiles.main - INFO - 3 changes detected
+2025-03-21 13:38:03,665 - watchfiles.main - INFO - 1 change detected
+2025-03-21 13:38:04,051 - watchfiles.main - INFO - 1 change detected
+2025-03-21 13:38:05,293 - watchfiles.main - INFO - 1 change detected
+2025-03-21 13:38:16,749 - watchfiles.main - INFO - 1 change detected
+2025-03-21 13:38:18,027 - watchfiles.main - INFO - 1 change detected
+2025-03-21 13:38:18,456 - watchfiles.main - INFO - 1 change detected
+2025-03-21 13:38:21,434 - watchfiles.main - INFO - 1 change detected
+2025-03-21 13:38:30,991 - watchfiles.main - INFO - 1 change detected
+2025-03-21 13:38:31,361 - watchfiles.main - INFO - 1 change detected
+2025-03-21 13:38:31,910 - watchfiles.main - INFO - 1 change detected
+2025-03-21 13:38:35,726 - watchfiles.main - INFO - 1 change detected
+2025-03-22 12:42:54,161 - app - INFO - 配置管理器初始化成功
+2025-03-22 12:42:54,220 - watchfiles.main - INFO - 3 changes detected
+2025-03-22 12:42:54,365 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-22 12:42:54,458 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-22 12:42:54,571 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-22 12:42:54,672 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-22 12:42:54,672 - app - INFO - 角色管理器初始化成功
+2025-03-22 12:42:54,673 - app - INFO - 文件解析器初始化成功
+2025-03-22 12:43:12,564 - watchfiles.main - INFO - 1 change detected
+2025-03-22 12:43:14,400 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-22 12:43:14,575 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-22 12:43:14,575 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-22 12:43:14,662 - watchfiles.main - INFO - 1 change detected
+2025-03-22 12:43:24,024 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-22 12:43:24,041 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-22 12:43:34,514 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-22 12:43:34,522 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-22 12:43:34,744 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-22 12:43:34,748 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742618614722373cf9984d985d8cb8d74dc33be4b9b96cce82', 'param': '', 'type': 'Unauthorized'}}
+2025-03-22 12:43:34,748 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-22 12:43:34,749 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-22 12:44:28,692 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-22 12:44:28,712 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-22 12:44:28,716 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-22 12:44:43,662 - root - INFO - 进度更新: 讨论阶段 - 开始讨论文档问题
+2025-03-22 12:44:43,663 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (0/3)
+2025-03-22 12:44:52,970 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-22 12:44:52,976 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (1/3)
+2025-03-22 12:45:07,816 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-22 12:45:07,820 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (2/3)
+2025-03-22 12:45:08,045 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-22 12:45:08,047 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742618708025a26b761726fc3c5eab89e695e902fd9f9cfcd9', 'param': '', 'type': 'Unauthorized'}}
+2025-03-22 12:45:08,048 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (3/3)
+2025-03-22 12:45:08,049 - root - INFO - 进度更新: 讨论阶段 - 完成
+2025-03-22 12:45:08,049 - app - INFO - 文档讨论完成
+2025-03-22 12:47:24,023 - root - INFO - 进度更新: 总结阶段 - 开始生成最终报告
+2025-03-22 12:48:03,496 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-22 12:48:03,510 - root - INFO - 进度更新: 总结阶段 - 完成
+2025-03-22 12:48:03,513 - app - INFO - 文档总结完成
+2025-03-22 12:48:03,769 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:34:32,172 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:34:32,923 - root - INFO - 清理临时目录: temp
+2025-03-23 09:34:32,923 - app - INFO - 临时文件已清理
+2025-03-23 09:34:35,775 - watchfiles.main - INFO - 4 changes detected
+2025-03-23 09:34:42,171 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:34:42,189 - app - INFO - 配置管理器初始化成功
+2025-03-23 09:34:42,538 - watchfiles.main - INFO - 3 changes detected
+2025-03-23 09:34:42,615 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-23 09:34:42,993 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-23 09:34:43,150 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-23 09:34:43,666 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-23 09:34:43,667 - app - INFO - 角色管理器初始化成功
+2025-03-23 09:34:43,668 - app - INFO - 文件解析器初始化成功
+2025-03-23 09:34:58,713 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:34:58,826 - root - INFO - 清理临时目录: temp
+2025-03-23 09:34:58,826 - app - INFO - 临时文件已清理
+2025-03-23 09:35:00,167 - watchfiles.main - INFO - 3 changes detected
+2025-03-23 09:35:00,749 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:35:05,125 - app - INFO - 配置管理器初始化成功
+2025-03-23 09:35:05,182 - watchfiles.main - INFO - 4 changes detected
+2025-03-23 09:35:05,329 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-23 09:35:05,408 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-23 09:35:05,477 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-23 09:35:05,547 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-23 09:35:05,547 - app - INFO - 角色管理器初始化成功
+2025-03-23 09:35:05,548 - app - INFO - 文件解析器初始化成功
+2025-03-23 09:35:23,953 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:35:25,174 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:35:27,581 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:35:42,518 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:35:43,428 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:35:46,222 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:36:07,230 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:36:07,410 - root - INFO - 清理临时目录: temp
+2025-03-23 09:36:07,410 - app - INFO - 临时文件已清理
+2025-03-23 09:36:08,720 - watchfiles.main - INFO - 3 changes detected
+2025-03-23 09:36:10,834 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:36:15,340 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:36:16,523 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:36:19,145 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:36:19,510 - watchfiles.main - INFO - 4 changes detected
+2025-03-23 09:36:19,522 - app - INFO - 配置管理器初始化成功
+2025-03-23 09:36:19,968 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-23 09:36:20,290 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-23 09:36:20,414 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-23 09:36:20,689 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-23 09:36:20,690 - app - INFO - 角色管理器初始化成功
+2025-03-23 09:36:20,690 - app - INFO - 文件解析器初始化成功
+2025-03-23 09:38:18,046 - app - INFO - 配置管理器初始化成功
+2025-03-23 09:38:18,127 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-23 09:38:18,190 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-23 09:38:18,254 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-23 09:38:18,315 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-23 09:38:18,316 - app - INFO - 角色管理器初始化成功
+2025-03-23 09:38:18,316 - app - INFO - 文件解析器初始化成功
+2025-03-23 09:38:39,839 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:38:41,502 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-23 09:38:41,668 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-23 09:38:41,669 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-23 09:38:41,751 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:38:50,668 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 09:38:50,673 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-23 09:39:03,077 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 09:39:03,080 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-23 09:39:03,255 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-23 09:39:03,257 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742693943222d2f1ae38eb997df73c95adbe91577b358de78a', 'param': '', 'type': 'Unauthorized'}}
+2025-03-23 09:39:03,257 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-23 09:39:03,259 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-23 09:39:46,270 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 09:39:46,275 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-23 09:39:46,275 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-23 09:40:14,688 - root - INFO - 进度更新: 讨论阶段 - 开始讨论文档问题
+2025-03-23 09:40:14,690 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (0/3)
+2025-03-23 09:40:17,217 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 09:40:17,220 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (1/3)
+2025-03-23 09:40:30,712 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 09:40:30,714 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (2/3)
+2025-03-23 09:40:30,868 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-23 09:40:30,870 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742694030837244d0f1110851e359136df1804b0c269c1fcf3', 'param': '', 'type': 'Unauthorized'}}
+2025-03-23 09:40:30,871 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (3/3)
+2025-03-23 09:40:30,872 - root - INFO - 进度更新: 讨论阶段 - 完成
+2025-03-23 09:40:30,872 - app - INFO - 文档讨论完成
+2025-03-23 09:40:58,451 - root - INFO - 进度更新: 总结阶段 - 开始生成最终报告
+2025-03-23 09:41:34,579 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 09:41:34,585 - root - INFO - 进度更新: 总结阶段 - 完成
+2025-03-23 09:41:34,594 - app - INFO - 文档总结完成
+2025-03-23 09:41:34,759 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:58:04,508 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:58:20,916 - watchfiles.main - INFO - 1 change detected
+2025-03-23 09:58:46,124 - app - INFO - 配置管理器初始化成功
+2025-03-23 09:58:46,225 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-23 09:58:46,293 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-23 09:58:46,378 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-23 09:58:46,442 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-23 09:58:46,442 - app - INFO - 角色管理器初始化成功
+2025-03-23 09:58:46,442 - app - INFO - 文件解析器初始化成功
+2025-03-23 09:59:36,506 - watchfiles.main - INFO - 1 change detected
+2025-03-23 10:06:03,238 - watchfiles.main - INFO - 1 change detected
+2025-03-23 10:06:23,248 - app - INFO - 配置管理器初始化成功
+2025-03-23 10:06:23,510 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-23 10:06:23,625 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-23 10:06:23,699 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-23 10:06:23,814 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-23 10:06:23,814 - app - INFO - 角色管理器初始化成功
+2025-03-23 10:06:23,816 - app - INFO - 文件解析器初始化成功
+2025-03-23 10:08:31,799 - watchfiles.main - INFO - 1 change detected
+2025-03-23 10:08:50,264 - app - INFO - 配置管理器初始化成功
+2025-03-23 10:08:50,344 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-23 10:08:50,407 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-23 10:08:50,476 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-23 10:08:50,562 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-23 10:08:50,562 - app - INFO - 角色管理器初始化成功
+2025-03-23 10:08:50,562 - app - INFO - 文件解析器初始化成功
+2025-03-23 10:09:05,885 - watchfiles.main - INFO - 1 change detected
+2025-03-23 10:18:30,005 - watchfiles.main - INFO - 1 change detected
+2025-03-23 10:22:21,236 - app - INFO - 配置管理器初始化成功
+2025-03-23 10:22:21,376 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-23 10:22:21,448 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-23 10:22:21,523 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-23 10:22:21,706 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-23 10:22:21,707 - app - INFO - 角色管理器初始化成功
+2025-03-23 10:22:21,708 - app - INFO - 文件解析器初始化成功
+2025-03-23 10:22:28,446 - watchfiles.main - INFO - 1 change detected
+2025-03-23 10:22:39,261 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-23 10:22:39,558 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-23 10:22:39,558 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-23 10:22:39,674 - watchfiles.main - INFO - 1 change detected
+2025-03-23 10:22:48,969 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 10:23:15,457 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-23 10:23:32,729 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 10:23:32,755 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-23 10:23:32,981 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-23 10:23:32,989 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 0217426966129554d747d666daafc13604246570ba2edbdb364c4', 'param': '', 'type': 'Unauthorized'}}
+2025-03-23 10:23:32,990 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-23 10:23:32,998 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-23 10:24:11,645 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 10:24:11,672 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-23 10:24:11,672 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-23 10:24:44,969 - root - INFO - 进度更新: 讨论阶段 - 开始讨论文档问题
+2025-03-23 10:24:44,974 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (0/3)
+2025-03-23 10:24:51,093 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 10:24:51,106 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (1/3)
+2025-03-23 10:25:05,271 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 10:25:05,281 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (2/3)
+2025-03-23 10:25:05,451 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-23 10:25:05,454 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742696705424f92ad2b06d7f078289885041190fade3ef7e1e', 'param': '', 'type': 'Unauthorized'}}
+2025-03-23 10:25:05,454 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (3/3)
+2025-03-23 10:25:15,092 - root - INFO - 进度更新: 讨论阶段 - 完成
+2025-03-23 10:25:15,093 - app - INFO - 文档讨论完成
+2025-03-23 10:30:56,306 - watchfiles.main - INFO - 1 change detected
+2025-03-23 12:41:04,946 - app - INFO - 配置管理器初始化成功
+2025-03-23 12:41:05,099 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-23 12:41:05,204 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-23 12:41:05,289 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-23 12:41:05,372 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-23 12:41:05,375 - app - INFO - 角色管理器初始化成功
+2025-03-23 12:41:05,375 - app - INFO - 文件解析器初始化成功
+2025-03-23 12:41:17,881 - watchfiles.main - INFO - 1 change detected
+2025-03-23 12:41:24,890 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-23 12:41:25,066 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-23 12:41:25,066 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-23 12:41:25,179 - watchfiles.main - INFO - 1 change detected
+2025-03-23 12:41:36,093 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 12:41:36,110 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-23 12:41:51,336 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 12:41:51,341 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-23 12:41:51,531 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-23 12:41:51,533 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742704911510dd9f614e62f019d5d526f64201d4ddfca1654a', 'param': '', 'type': 'Unauthorized'}}
+2025-03-23 12:41:51,533 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-23 12:41:51,534 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-23 12:42:41,520 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 12:42:41,525 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-23 12:42:41,525 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-23 12:46:28,878 - watchfiles.main - INFO - 1 change detected
+2025-03-23 12:54:18,712 - app - INFO - 配置管理器初始化成功
+2025-03-23 12:54:18,957 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-23 12:54:19,196 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-23 12:54:19,462 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-23 12:54:19,688 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-23 12:54:19,688 - app - INFO - 角色管理器初始化成功
+2025-03-23 12:54:19,688 - app - INFO - 文件解析器初始化成功
+2025-03-23 12:54:43,914 - watchfiles.main - INFO - 1 change detected
+2025-03-23 12:54:49,486 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-23 12:54:49,659 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-23 12:54:49,660 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-23 12:54:49,729 - watchfiles.main - INFO - 1 change detected
+2025-03-23 12:54:57,121 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 12:54:57,130 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-23 12:55:10,468 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 12:55:10,471 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-23 12:55:10,636 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-23 12:55:10,639 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742705710617eae12b78e2bbf363a1064446ddcd1fb5fd850b', 'param': '', 'type': 'Unauthorized'}}
+2025-03-23 12:55:10,639 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-23 12:55:10,641 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-23 12:55:52,044 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 12:55:52,047 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-23 12:55:52,047 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-23 12:56:22,728 - root - INFO - 进度更新: 讨论阶段 - 开始讨论文档问题
+2025-03-23 12:56:22,729 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (0/3)
+2025-03-23 12:56:31,837 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 12:56:31,840 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (1/3)
+2025-03-23 12:56:42,628 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 12:56:42,630 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (2/3)
+2025-03-23 12:56:42,765 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-23 12:56:42,766 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 0217427058027468c2d198b764d1ac22003a2340bc4a707d22a13', 'param': '', 'type': 'Unauthorized'}}
+2025-03-23 12:56:42,766 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (3/3)
+2025-03-23 12:56:42,767 - root - INFO - 进度更新: 讨论阶段 - 完成
+2025-03-23 12:56:42,767 - app - INFO - 文档讨论完成
+2025-03-23 12:57:13,996 - root - INFO - 进度更新: 总结阶段 - 开始生成最终报告
+2025-03-23 12:59:14,827 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 12:59:14,835 - root - INFO - 进度更新: 总结阶段 - 完成
+2025-03-23 12:59:14,839 - app - INFO - 文档总结完成
+2025-03-23 12:59:15,095 - watchfiles.main - INFO - 1 change detected
+2025-03-23 13:02:03,288 - watchfiles.main - INFO - 1 change detected
+2025-03-23 13:02:03,662 - watchfiles.main - INFO - 1 change detected
+2025-03-23 13:02:05,667 - watchfiles.main - INFO - 1 change detected
+2025-03-23 13:02:45,623 - app - INFO - 配置管理器初始化成功
+2025-03-23 13:02:45,733 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-23 13:02:45,808 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-23 13:02:45,886 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-23 13:02:45,970 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-23 13:02:45,970 - app - INFO - 角色管理器初始化成功
+2025-03-23 13:02:45,970 - app - INFO - 文件解析器初始化成功
+2025-03-23 13:02:59,742 - watchfiles.main - INFO - 1 change detected
+2025-03-23 13:03:01,619 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-23 13:03:01,753 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-23 13:03:01,753 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-23 13:03:01,827 - watchfiles.main - INFO - 1 change detected
+2025-03-23 13:03:15,335 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 13:03:15,341 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-23 13:03:26,596 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 13:03:26,601 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-23 13:03:26,773 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-23 13:03:26,775 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 02174270620675439db3cc1c609c76a1bd5479dfa66b02c3e49d5', 'param': '', 'type': 'Unauthorized'}}
+2025-03-23 13:03:26,775 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-23 13:03:26,777 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-23 13:04:07,687 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 13:04:07,692 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-23 13:04:07,692 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-23 13:04:12,976 - root - INFO - 进度更新: 讨论阶段 - 开始讨论文档问题
+2025-03-23 13:04:12,976 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (0/3)
+2025-03-23 13:04:19,978 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 13:04:19,982 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (1/3)
+2025-03-23 13:04:32,448 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 13:04:32,451 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (2/3)
+2025-03-23 13:04:32,609 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-23 13:04:32,610 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742706272591315f63336899cca155604ab2de3192fe3de80e', 'param': '', 'type': 'Unauthorized'}}
+2025-03-23 13:04:32,610 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (3/3)
+2025-03-23 13:04:32,612 - root - INFO - 进度更新: 讨论阶段 - 完成
+2025-03-23 13:04:32,612 - app - INFO - 文档讨论完成
+2025-03-23 13:04:56,512 - root - INFO - 进度更新: 总结阶段 - 开始生成最终报告
+2025-03-23 13:05:51,185 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 13:05:51,188 - root - INFO - 进度更新: 总结阶段 - 完成
+2025-03-23 13:05:51,191 - app - INFO - 文档总结完成
+2025-03-23 13:05:51,347 - watchfiles.main - INFO - 1 change detected
+2025-03-23 13:06:35,383 - watchfiles.main - INFO - 2 changes detected
+2025-03-23 13:07:30,327 - watchfiles.main - INFO - 2 changes detected
+2025-03-23 13:07:33,203 - watchfiles.main - INFO - 1 change detected
+2025-03-23 21:05:15,195 - watchfiles.main - INFO - 1 change detected
+2025-03-24 17:01:21,621 - watchfiles.main - INFO - 1 change detected
+2025-03-24 17:01:22,024 - root - INFO - 清理临时目录: temp
+2025-03-24 17:01:22,027 - app - INFO - 临时文件已清理
+2025-03-24 17:01:22,874 - watchfiles.main - INFO - 4 changes detected
+2025-03-24 17:01:24,402 - watchfiles.main - INFO - 1 change detected
+2025-03-24 17:01:28,772 - watchfiles.main - INFO - 1 change detected
+2025-03-24 17:01:28,776 - app - INFO - 配置管理器初始化成功
+2025-03-24 17:01:28,879 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-24 17:01:29,024 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-24 17:01:29,106 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-24 17:01:29,143 - watchfiles.main - INFO - 3 changes detected
+2025-03-24 17:01:29,184 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-24 17:01:29,184 - app - INFO - 角色管理器初始化成功
+2025-03-24 17:01:29,185 - app - INFO - 文件解析器初始化成功
+2025-03-24 17:18:20,114 - app - INFO - 配置管理器初始化成功
+2025-03-24 17:18:20,237 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-24 17:18:20,309 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-24 17:18:20,380 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-24 17:18:20,669 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-24 17:18:20,669 - app - INFO - 角色管理器初始化成功
+2025-03-24 17:18:20,669 - app - INFO - 文件解析器初始化成功
+2025-03-24 17:18:33,864 - watchfiles.main - INFO - 1 change detected
+2025-03-24 17:18:39,453 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-24 17:18:39,635 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-24 17:18:39,635 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-24 17:18:39,732 - watchfiles.main - INFO - 1 change detected
+2025-03-24 17:18:57,387 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 17:18:57,679 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-24 17:19:12,481 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 17:19:12,486 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-24 17:19:12,639 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 17:19:12,644 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 0217428079549595867b9ae46059e2b0219811ecb72742d806a29', 'param': '', 'type': 'Unauthorized'}}
+2025-03-24 17:19:12,645 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-24 17:19:12,647 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-24 17:19:33,290 - watchfiles.main - INFO - 1 change detected
+2025-03-24 17:19:54,465 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 17:19:54,468 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-24 17:19:54,468 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-24 17:20:04,914 - root - INFO - 进度更新: 讨论阶段 - 开始讨论文档问题
+2025-03-24 17:20:04,915 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (0/3)
+2025-03-24 17:20:07,774 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 17:20:07,776 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (1/3)
+2025-03-24 17:20:21,803 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 17:20:21,808 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (2/3)
+2025-03-24 17:20:21,925 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 17:20:21,927 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742808024240ca8dc5cdfbc809995ade91978cdf21299655e5', 'param': '', 'type': 'Unauthorized'}}
+2025-03-24 17:20:21,927 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (3/3)
+2025-03-24 17:20:21,928 - root - INFO - 进度更新: 讨论阶段 - 完成
+2025-03-24 17:20:21,928 - app - INFO - 文档讨论完成
+2025-03-24 17:21:04,576 - root - INFO - 进度更新: 总结阶段 - 开始生成最终报告
+2025-03-24 17:21:37,662 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 17:21:37,680 - root - INFO - 进度更新: 总结阶段 - 完成
+2025-03-24 17:21:37,695 - app - INFO - 文档总结完成
+2025-03-24 17:21:37,928 - watchfiles.main - INFO - 1 change detected
+2025-03-24 17:23:34,516 - watchfiles.main - INFO - 1 change detected
+2025-03-24 17:23:41,008 - watchfiles.main - INFO - 1 change detected
+2025-03-24 17:30:40,208 - watchfiles.main - INFO - 1 change detected
+2025-03-24 17:30:40,648 - watchfiles.main - INFO - 1 change detected
+2025-03-24 17:30:42,103 - watchfiles.main - INFO - 1 change detected
+2025-03-24 17:52:44,013 - app - INFO - 配置管理器初始化成功
+2025-03-24 17:52:44,112 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-24 17:52:44,188 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-24 17:52:44,251 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-24 17:52:44,313 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-24 17:52:44,313 - app - INFO - 角色管理器初始化成功
+2025-03-24 17:52:44,314 - app - INFO - 文件解析器初始化成功
+2025-03-24 17:53:08,563 - watchfiles.main - INFO - 1 change detected
+2025-03-24 17:55:46,462 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-24 17:55:46,647 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-24 17:55:46,648 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-24 17:55:46,757 - watchfiles.main - INFO - 1 change detected
+2025-03-24 17:55:56,218 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 17:55:56,230 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-24 17:56:09,171 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 17:56:09,177 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-24 17:56:09,382 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 17:56:09,385 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742810170956ab51f2a928d7009e013aea1209bd8da260b81d', 'param': '', 'type': 'Unauthorized'}}
+2025-03-24 17:56:09,386 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-24 17:56:09,390 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-24 17:56:47,212 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 17:56:47,218 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-24 17:56:47,219 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-24 17:57:55,205 - watchfiles.main - INFO - 1 change detected
+2025-03-24 17:57:59,329 - root - INFO - 进度更新: 讨论阶段 - 开始讨论文档问题
+2025-03-24 17:57:59,329 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (0/3)
+2025-03-24 17:58:09,002 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 17:58:09,005 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (1/3)
+2025-03-24 17:58:25,194 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 17:58:25,197 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (2/3)
+2025-03-24 17:58:25,345 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 17:58:25,347 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 02174281030691280004a22e54eb9d0879f0cdafb0249ff56a8a0', 'param': '', 'type': 'Unauthorized'}}
+2025-03-24 17:58:25,347 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (3/3)
+2025-03-24 17:58:25,348 - root - INFO - 进度更新: 讨论阶段 - 完成
+2025-03-24 17:58:25,348 - app - INFO - 文档讨论完成
+2025-03-24 17:58:54,705 - root - INFO - 进度更新: 总结阶段 - 开始生成最终报告
+2025-03-24 18:00:34,371 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 18:00:34,374 - root - INFO - 进度更新: 总结阶段 - 完成
+2025-03-24 18:00:34,378 - app - ERROR - 文档总结失败: 'str' object has no attribute 'get'
+2025-03-24 18:09:17,336 - app - INFO - 配置管理器初始化成功
+2025-03-24 18:09:17,411 - watchfiles.main - INFO - 3 changes detected
+2025-03-24 18:09:17,565 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-24 18:09:17,638 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-24 18:09:17,710 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-24 18:09:17,787 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-24 18:09:17,787 - app - INFO - 角色管理器初始化成功
+2025-03-24 18:09:17,787 - app - INFO - 文件解析器初始化成功
+2025-03-24 18:10:16,345 - watchfiles.main - INFO - 1 change detected
+2025-03-24 18:10:26,689 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-24 18:10:26,829 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-24 18:10:26,829 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-24 18:10:26,940 - watchfiles.main - INFO - 1 change detected
+2025-03-24 18:10:35,363 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 18:10:35,371 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-24 18:10:48,795 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 18:10:48,798 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-24 18:10:49,000 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 18:10:49,004 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742811050569ecd35757fb9614ae63a286f102a6d4c3ba25dc', 'param': '', 'type': 'Unauthorized'}}
+2025-03-24 18:10:49,004 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-24 18:10:49,010 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-24 18:11:28,414 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 18:11:28,419 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-24 18:11:28,419 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-24 18:11:31,853 - root - INFO - 进度更新: 讨论阶段 - 开始讨论文档问题
+2025-03-24 18:11:31,854 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (0/3)
+2025-03-24 18:11:36,460 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 18:11:36,463 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (1/3)
+2025-03-24 18:11:48,709 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 18:11:48,712 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (2/3)
+2025-03-24 18:11:48,830 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 18:11:48,831 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742811110402032f7ddc5f9cefd0e01af52376a34c5329c1e7', 'param': '', 'type': 'Unauthorized'}}
+2025-03-24 18:11:48,831 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (3/3)
+2025-03-24 18:11:48,833 - root - INFO - 进度更新: 讨论阶段 - 完成
+2025-03-24 18:11:48,834 - app - INFO - 文档讨论完成
+2025-03-24 18:11:52,664 - root - INFO - 进度更新: 总结阶段 - 开始生成最终报告
+2025-03-24 18:12:32,792 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 18:12:32,797 - root - INFO - 进度更新: 总结阶段 - 完成
+2025-03-24 18:12:32,803 - app - INFO - 文档总结完成
+2025-03-24 18:12:32,960 - watchfiles.main - INFO - 1 change detected
+2025-03-24 18:16:17,036 - watchfiles.main - INFO - 1 change detected
+2025-03-24 18:16:17,221 - root - INFO - 清理临时目录: temp
+2025-03-24 18:16:17,221 - app - INFO - 临时文件已清理
+2025-03-24 18:16:18,269 - watchfiles.main - INFO - 4 changes detected
+2025-03-24 18:16:18,779 - watchfiles.main - INFO - 1 change detected
+2025-03-24 18:16:25,018 - watchfiles.main - INFO - 1 change detected
+2025-03-24 18:16:25,062 - app - INFO - 配置管理器初始化成功
+2025-03-24 18:16:25,386 - watchfiles.main - INFO - 3 changes detected
+2025-03-24 18:16:25,546 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-24 18:16:25,793 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-24 18:16:26,175 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-24 18:16:26,275 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-24 18:16:26,276 - app - INFO - 角色管理器初始化成功
+2025-03-24 18:16:26,276 - app - INFO - 文件解析器初始化成功
+2025-03-24 18:16:37,302 - watchfiles.main - INFO - 1 change detected
+2025-03-24 18:16:37,556 - root - INFO - 清理临时目录: temp
+2025-03-24 18:16:37,557 - app - INFO - 临时文件已清理
+2025-03-24 18:16:38,987 - watchfiles.main - INFO - 4 changes detected
+2025-03-24 18:16:41,215 - watchfiles.main - INFO - 1 change detected
+2025-03-24 18:16:44,519 - watchfiles.main - INFO - 1 change detected
+2025-03-24 18:16:44,716 - app - INFO - 配置管理器初始化成功
+2025-03-24 18:16:44,899 - watchfiles.main - INFO - 3 changes detected
+2025-03-24 18:16:45,077 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-24 18:16:45,166 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-24 18:16:45,341 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-24 18:16:45,722 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-24 18:16:45,723 - app - INFO - 角色管理器初始化成功
+2025-03-24 18:16:45,723 - app - INFO - 文件解析器初始化成功
+2025-03-24 18:17:08,709 - watchfiles.main - INFO - 1 change detected
+2025-03-24 18:17:10,540 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-24 18:17:10,742 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-24 18:17:10,743 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-24 18:17:10,812 - watchfiles.main - INFO - 1 change detected
+2025-03-24 18:17:22,626 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 18:17:22,634 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-24 18:17:34,307 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 18:17:34,318 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-24 18:17:34,518 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 18:17:34,521 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 0217428114560821043be4a0e9418ee094c0cf5ad9021d56699d7', 'param': '', 'type': 'Unauthorized'}}
+2025-03-24 18:17:34,521 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-24 18:17:34,522 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-24 18:18:02,142 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 18:18:02,147 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-24 18:18:02,147 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-24 18:18:03,684 - root - INFO - 进度更新: 讨论阶段 - 开始讨论文档问题
+2025-03-24 18:18:03,686 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (0/3)
+2025-03-24 18:18:05,859 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 18:18:05,861 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (1/3)
+2025-03-24 18:18:21,367 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 18:18:21,370 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (2/3)
+2025-03-24 18:18:21,531 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 18:18:21,533 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742811503102186b1bbde65e9586a669db9f3bf76b103931e7', 'param': '', 'type': 'Unauthorized'}}
+2025-03-24 18:18:21,533 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (3/3)
+2025-03-24 18:18:21,535 - root - INFO - 进度更新: 讨论阶段 - 完成
+2025-03-24 18:18:21,536 - app - INFO - 文档讨论完成
+2025-03-24 18:18:24,702 - root - INFO - 进度更新: 总结阶段 - 开始生成最终报告
+2025-03-24 18:19:03,274 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 18:19:03,276 - root - INFO - 进度更新: 总结阶段 - 完成
+2025-03-24 18:19:03,277 - app - INFO - 文档总结完成
+2025-03-24 18:19:03,423 - watchfiles.main - INFO - 1 change detected
+2025-03-24 18:38:49,326 - watchfiles.main - INFO - 1 change detected
+2025-03-24 18:38:54,384 - watchfiles.main - INFO - 2 changes detected
+2025-03-24 18:39:03,527 - watchfiles.main - INFO - 1 change detected
+2025-03-24 18:39:03,891 - watchfiles.main - INFO - 1 change detected
+2025-03-24 18:39:28,441 - watchfiles.main - INFO - 2 changes detected
+2025-03-24 18:39:28,809 - watchfiles.main - INFO - 1 change detected
+2025-03-24 18:47:33,863 - watchfiles.main - INFO - 1 change detected
+2025-03-24 18:47:34,192 - root - INFO - 清理临时目录: temp
+2025-03-24 18:47:34,199 - app - INFO - 临时文件已清理
+2025-03-24 18:47:36,284 - watchfiles.main - INFO - 4 changes detected
+2025-03-24 18:47:42,606 - watchfiles.main - INFO - 1 change detected
+2025-03-24 18:47:42,684 - app - INFO - 配置管理器初始化成功
+2025-03-24 18:47:42,967 - watchfiles.main - INFO - 3 changes detected
+2025-03-24 18:47:43,026 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-24 18:47:43,601 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-24 18:47:43,978 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-24 18:47:44,206 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-24 18:47:44,207 - app - INFO - 角色管理器初始化成功
+2025-03-24 18:47:44,208 - app - INFO - 文件解析器初始化成功
+2025-03-24 18:50:16,022 - app - INFO - 配置管理器初始化成功
+2025-03-24 18:50:16,145 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-24 18:50:16,234 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-24 18:50:16,329 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-24 18:50:16,424 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-24 18:50:16,425 - app - INFO - 角色管理器初始化成功
+2025-03-24 18:50:16,426 - app - INFO - 文件解析器初始化成功
+2025-03-24 18:50:26,784 - watchfiles.main - INFO - 1 change detected
+2025-03-24 18:50:28,232 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-24 18:50:28,465 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-24 18:50:28,465 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-24 18:50:28,593 - watchfiles.main - INFO - 1 change detected
+2025-03-24 18:50:45,480 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 18:50:45,489 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-24 18:50:55,304 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 18:50:55,309 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-24 18:50:55,459 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 18:50:55,461 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 02174281345702533a707a92a4ad6c43e005d028a588943704656', 'param': '', 'type': 'Unauthorized'}}
+2025-03-24 18:50:55,461 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-24 18:50:55,462 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-24 18:51:51,012 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 18:51:51,015 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-24 18:51:51,016 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-24 18:52:20,793 - root - INFO - 进度更新: 讨论阶段 - 开始讨论文档问题
+2025-03-24 18:52:20,794 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (0/3)
+2025-03-24 18:52:26,546 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 18:52:26,548 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (1/3)
+2025-03-24 18:52:38,835 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 18:52:38,840 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (2/3)
+2025-03-24 18:52:38,973 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 18:52:38,975 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 0217428135605391614df5c6ac175b99b2192e77a1fc39dc5513e', 'param': '', 'type': 'Unauthorized'}}
+2025-03-24 18:52:38,975 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (3/3)
+2025-03-24 18:52:38,977 - root - INFO - 进度更新: 讨论阶段 - 完成
+2025-03-24 18:52:38,977 - app - INFO - 文档讨论完成
+2025-03-24 18:53:53,828 - root - INFO - 进度更新: 总结阶段 - 开始生成最终报告
+2025-03-24 18:54:32,395 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 18:54:32,396 - root - INFO - 进度更新: 总结阶段 - 完成
+2025-03-24 18:54:32,400 - app - INFO - 文档总结完成
+2025-03-24 18:54:32,682 - watchfiles.main - INFO - 1 change detected
+2025-03-24 19:01:54,924 - watchfiles.main - INFO - 1 change detected
+2025-03-24 19:01:55,653 - watchfiles.main - INFO - 1 change detected
+2025-03-24 19:01:58,238 - watchfiles.main - INFO - 1 change detected
+2025-03-24 21:57:01,681 - watchfiles.main - INFO - 1 change detected
+2025-03-24 21:57:49,037 - app - INFO - 配置管理器初始化成功
+2025-03-24 21:57:49,441 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-24 21:57:49,706 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-24 21:57:50,393 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-24 21:57:50,905 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-24 21:57:50,906 - app - INFO - 角色管理器初始化成功
+2025-03-24 21:57:50,907 - app - INFO - 文件解析器初始化成功
+2025-03-24 21:58:07,061 - watchfiles.main - INFO - 1 change detected
+2025-03-24 21:58:12,372 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-24 21:58:13,599 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-24 21:58:13,599 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-24 21:58:13,693 - watchfiles.main - INFO - 1 change detected
+2025-03-24 21:58:26,675 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 21:58:26,690 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-24 21:58:36,669 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 21:58:36,676 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-24 21:58:36,837 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 21:58:36,839 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 0217428247178412ba9f29a4313ad39fb6a13c5744e84b4192ff1', 'param': '', 'type': 'Unauthorized'}}
+2025-03-24 21:58:36,840 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-24 21:58:36,842 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-25 13:34:01,736 - app - INFO - 配置管理器初始化成功
+2025-03-25 13:34:02,005 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-25 13:34:02,083 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-25 13:34:02,152 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-25 13:34:02,229 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-25 13:34:02,230 - app - INFO - 角色管理器初始化成功
+2025-03-25 13:34:02,230 - app - INFO - 文件解析器初始化成功
+2025-03-25 13:34:31,237 - watchfiles.main - INFO - 1 change detected
+2025-03-25 13:34:34,027 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-25 13:34:34,228 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-25 13:34:34,228 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-25 13:34:34,323 - watchfiles.main - INFO - 1 change detected
+2025-03-25 13:34:42,531 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 13:34:42,544 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-25 13:34:54,304 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 13:34:54,311 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-25 13:34:54,449 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-25 13:34:54,452 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021742880894427c0218dcba49b3c8cef120cbd1065db101d7ba0', 'param': '', 'type': 'Unauthorized'}}
+2025-03-25 13:34:54,452 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-25 13:34:54,458 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-25 13:35:31,786 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 13:35:31,790 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-25 13:35:31,791 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-25 13:35:38,119 - root - INFO - 进度更新: 讨论阶段 - 开始讨论文档问题
+2025-03-25 13:35:38,120 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (0/3)
+2025-03-25 13:35:40,706 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 13:35:40,708 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (1/3)
+2025-03-25 13:35:52,961 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 13:35:52,964 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (2/3)
+2025-03-25 13:35:53,107 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-25 13:35:53,108 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 0217428809530887018c60b7bb529fce5af48552c79961e7a7d95', 'param': '', 'type': 'Unauthorized'}}
+2025-03-25 13:35:53,108 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (3/3)
+2025-03-25 13:35:53,108 - root - INFO - 进度更新: 讨论阶段 - 完成
+2025-03-25 13:35:53,109 - app - INFO - 文档讨论完成
+2025-03-25 13:36:28,542 - root - INFO - 进度更新: 总结阶段 - 开始生成最终报告
+2025-03-25 13:37:07,429 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 13:37:07,452 - root - INFO - 进度更新: 总结阶段 - 完成
+2025-03-25 13:37:07,480 - app - INFO - 文档总结完成
+2025-03-25 13:37:07,619 - watchfiles.main - INFO - 1 change detected
+2025-03-25 16:23:41,912 - watchfiles.main - INFO - 1 change detected
+2025-03-25 16:23:47,559 - watchfiles.main - INFO - 1 change detected
+2025-03-25 16:23:53,478 - watchfiles.main - INFO - 1 change detected
+2025-03-25 16:23:59,176 - watchfiles.main - INFO - 1 change detected
+2025-03-25 16:24:07,700 - watchfiles.main - INFO - 1 change detected
+2025-03-27 16:41:29,554 - app - INFO - 配置管理器初始化成功
+2025-03-27 16:41:29,635 - root - INFO - 组织者初始化成功: ep-20250218100121-q6n4l
+2025-03-27 16:41:29,696 - root - INFO - 专家初始化成功: ep-20250228143931-zlgjw (语法审查)
+2025-03-27 16:41:29,757 - root - INFO - 专家初始化成功: ep-20250228144206-gw2df (逻辑分析)
+2025-03-27 16:41:29,816 - root - INFO - 专家初始化成功: qwq-plus-0305 (专业术语审查)
+2025-03-27 16:41:29,817 - app - INFO - 角色管理器初始化成功
+2025-03-27 16:41:29,817 - app - INFO - 文件解析器初始化成功
+2025-03-27 16:41:50,291 - watchfiles.main - INFO - 1 change detected
+2025-03-27 16:41:58,580 - root - INFO - 进度更新: 分析阶段 - 开始解析文件
+2025-03-27 16:41:58,758 - root - INFO - 进度更新: 分析阶段 - 文件解析完成: 数据分析服务室措施及目标.docx
+2025-03-27 16:41:58,759 - root - INFO - 进度更新: 分析阶段 - 开始收集专家审查要点 (0/3)
+2025-03-27 16:41:58,825 - watchfiles.main - INFO - 1 change detected
+2025-03-27 16:42:11,602 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 16:42:11,618 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (1/3)
+2025-03-27 16:42:27,874 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 16:42:27,878 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (2/3)
+2025-03-27 16:42:28,069 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-27 16:42:28,072 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 021743064948049a71dec768e99104cef00a32075fd683bc9b947', 'param': '', 'type': 'Unauthorized'}}
+2025-03-27 16:42:28,072 - root - INFO - 进度更新: 分析阶段 - 收集专家审查要点 (3/3)
+2025-03-27 16:42:28,075 - root - INFO - 进度更新: 分析阶段 - 汇总审查要点
+2025-03-27 16:43:13,614 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 16:43:13,618 - root - INFO - 进度更新: 分析阶段 - 完成
+2025-03-27 16:43:13,619 - app - INFO - 文档分析完成: uploads/数据分析服务室措施及目标.docx
+2025-03-27 16:43:23,793 - root - INFO - 进度更新: 讨论阶段 - 开始讨论文档问题
+2025-03-27 16:43:23,794 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (0/3)
+2025-03-27 16:43:28,009 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 16:43:28,012 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (1/3)
+2025-03-27 16:43:47,857 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 16:43:47,862 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (2/3)
+2025-03-27 16:43:48,019 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-27 16:43:48,022 - root - ERROR - API调用失败: Error code: 401 - {'error': {'code': 'AuthenticationError', 'message': 'The API key in the request is missing or invalid. Request id: 0217430650280015f856749b6045fc73e6c85b4024c7d7427ba57', 'param': '', 'type': 'Unauthorized'}}
+2025-03-27 16:43:48,022 - root - INFO - 进度更新: 讨论阶段 - 收集专家讨论结果 (3/3)
+2025-03-27 16:43:48,024 - root - INFO - 进度更新: 讨论阶段 - 完成
+2025-03-27 16:43:48,024 - app - INFO - 文档讨论完成
+2025-03-27 16:43:54,547 - root - INFO - 进度更新: 总结阶段 - 开始生成最终报告
+2025-03-27 16:44:41,988 - httpx - INFO - HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2025-03-27 16:44:41,994 - root - INFO - 进度更新: 总结阶段 - 完成
+2025-03-27 16:44:41,998 - app - ERROR - 文档总结失败: 'str' object has no attribute 'get'
